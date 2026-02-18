@@ -1,183 +1,209 @@
-# Battlecard: Honeywell B2M / Operational Intelligence vs SOTI
+# Battlecard: B2M Solutions Elemez vs SOTI XSight
 
 **Last Updated:** 2026-02-18
-**Competitor:** Honeywell Operational Intelligence (powered by B2M Solutions / Elemez)
-**Type:** Mobile Analytics & DEX Platform (NOT a full MDM)
-**Threat Level:** Medium (Analytics competitor, not management competitor)
+**Competitor:** B2M Solutions (Elemez Mobile DEX platform)
+**Honeywell OEM Name:** Operational Intelligence
+**Type:** Mobile Analytics / DEX Platform (NOT an MDM)
+**Threat Level:** Medium (Analytics competitor, complementary to MDM)
 
 ---
 
-## 1. What is Honeywell B2M?
+## 1. What is B2M Solutions?
 
-**B2M Solutions** (UK-based, founded 2002) provides **Elemez** — a Mobile Digital Employee Experience (DEX) platform. Honeywell OEMs this as **"Operational Intelligence"** for their devices.
+**B2M Solutions** (UK-based, founded 2002) provides **Elemez** — a Mobile Digital Employee Experience (Mobile DEX) platform for monitoring mobile device health.
 
-**Key Point:** This is an **analytics/monitoring tool**, NOT an MDM. It tells you *what's wrong* but can't *fix it*.
+**Honeywell Partnership:** Honeywell OEMs Elemez as **"Operational Intelligence"** for their devices. In Feb 2026, Honeywell announced B2M support for **non-Honeywell devices** (Zebra, Datalogic, GETAC, Panasonic).
 
-### Honeywell + Samsung Partnership (2026)
-Honeywell announced B2M support for **Samsung rugged devices** (XCover, Tab Active). This is a "co-opetition" play — Honeywell provides analytics for Samsung hardware they don't make.
+**Critical Point:** This is an **analytics/monitoring tool only**. It tells you *what's wrong* but cannot *fix it*.
 
 ---
 
-## 2. SOTI vs Honeywell OpIntel: Quick Comparison
+## 2. B2M Elemez Products
 
-| Capability | SOTI (MobiControl + XSight) | Honeywell OpIntel (B2M) |
-|:-----------|:----------------------------|:------------------------|
+| Product | What It Does |
+|:--------|:-------------|
+| **Battery Essentials** | Predict battery failure, monitor health, reduce unnecessary swaps |
+| **Core** | Real-time holistic analytics for devices, apps, networks |
+| **API/Integrations** | Export data to Power BI, Tableau, custom dashboards |
+
+**Supported Platforms:** Android 8.1-15, Windows 10/11
+**Supported Manufacturers:** Zebra, Honeywell, Datalogic, GETAC, Panasonic
+
+---
+
+## 3. SOTI vs B2M: Quick Comparison
+
+| Capability | SOTI (MobiControl + XSight) | B2M Elemez |
+|:-----------|:----------------------------|:-----------|
 | **MDM/Management** | ✅ Full MDM | ❌ Analytics only |
-| **Remote Control** | ✅ Industry-leading (Samsung) | ❌ None |
+| **Remote Control** | ✅ Industry-leading | ❌ None |
 | **App Deployment** | ✅ Full lifecycle | ❌ None |
-| **Device Analytics** | ✅ XSight (predictive) | ✅ Elemez (monitoring) |
+| **Device Analytics** | ✅ XSight | ✅ Elemez |
+| **Battery Analytics** | ✅ Predictive | ✅ Predictive |
 | **OS Updates** | ✅ E-FOTA control | ❌ Monitoring only |
 | **Security Policies** | ✅ Kernel-level | ❌ None |
-| **Samsung Knox** | ✅ Day-zero via KSP | ⚠️ Limited visibility |
-| **Pricing Model** | Quote-based | Per-device subscription |
+| **Works Without MDM** | ❌ (is the MDM) | ✅ Standalone |
+| **API Access** | ✅ SOTI ONE API | ✅ Elemez API |
 
-**Bottom Line:** Honeywell OpIntel is a **point solution** for analytics. SOTI is a **platform** for management + analytics + support.
+**Bottom Line:** B2M is a **point solution** for analytics. SOTI is a **complete platform** for management + analytics + support.
 
 ---
 
-## 3. Kill Shots (Where SOTI Wins)
+## 4. Kill Shots (Where SOTI Wins)
 
 ### Kill Shot #1: "They See Problems, We Fix Problems"
 ```
-"OpIntel is like a smoke detector — it tells you there's a fire.
+"Elemez is like a smoke detector — it tells you there's a fire.
 SOTI XSight is the fire department — we come in and put it out."
 ```
-**Use When:** Customer asks about OpIntel's device health dashboards.
-**Counter:** OpIntel can tell you a device has a failing battery. SOTI can push a profile to disable that device and redirect the user to a swap station.
+**Use When:** Customer asks about B2M's device health dashboards.
+**Counter:** B2M can tell you a device has a failing battery. SOTI can push a profile to disable that device, notify the swap station, and reroute the worker — all automatically.
 
-### Kill Shot #2: "Analytics Without Control is Useless"
+### Kill Shot #2: "Analytics Without Action is Just Reports"
 ```
-"What do you DO with the data OpIntel gives you?
-You still need an MDM to act on it. SOTI is the MDM AND the analytics."
+"B2M gives you beautiful dashboards. Then what?
+You still need an MDM to actually DO something about it.
+SOTI gives you both — the visibility AND the control."
 ```
-**Use When:** Customer is considering OpIntel as a standalone purchase.
-**Counter:** Every OpIntel deployment requires an MDM anyway. Why pay for two platforms when SOTI does both?
+**Use When:** Customer is considering B2M as a standalone purchase.
+**Counter:** Every B2M deployment still requires an MDM. Why pay for two platforms when SOTI does both?
 
 ### Kill Shot #3: "Remote Control is Non-Negotiable"
 ```
-"OpIntel can report that a frontline worker's device is frozen.
+"B2M can report that a frontline worker's device is frozen.
 SOTI can remote in and fix it in 30 seconds without a truck roll."
 ```
 **Use When:** Customer has distributed workforce / field service.
-**Counter:** Calculate the cost of one truck roll ($150-300). SOTI pays for itself on the first remote fix.
+**Counter:** Calculate the cost of one truck roll ($150-300). SOTI pays for itself on the first remote fix. B2M can't do this.
 
-### Kill Shot #4: "Samsung Devices = SOTI Territory"
+### Kill Shot #4: "One Platform, One Vendor"
 ```
-"OpIntel has 'support' for Samsung. SOTI has INTEGRATION with Samsung.
-We're a Samsung Premier Partner with Knox day-zero support."
+"B2M + MDM = two vendors, two contracts, two support teams, two dashboards.
+SOTI = one platform, one throat to choke, one bill."
 ```
-**Use When:** Customer is deploying Samsung XCover/Tab Active devices.
-**Counter:** SOTI has KME, KSP, E-FOTA, and remote control that OpIntel can't match on Samsung.
+**Use When:** Customer is price-sensitive or worried about vendor sprawl.
+**Counter:** Consolidation reduces complexity. SOTI XSight does what B2M does + the MDM on top.
 
 ---
 
-## 4. Vulnerabilities (Where We Lose)
+## 5. Vulnerabilities (Where We Lose)
 
-### Vulnerability #1: Honeywell Shop Already Committed
-**Scenario:** Customer is 100% Honeywell hardware and already uses Honeywell's ecosystem.
-**Counter:** Don't fight it. Position SOTI as the *management layer* under OpIntel. "OpIntel for visibility, SOTI for control."
+### Vulnerability #1: Customer Already Has MDM, Just Wants Analytics
+**Scenario:** Customer has Intune/Jamf/Workspace ONE and just wants better battery analytics.
+**Counter:** "If you're buying analytics anyway, why not get the platform that comes with remote control built in? XSight gives you B2M's features PLUS the ability to fix problems remotely."
 
-### Vulnerability #2: Price-Sensitive Analytics-Only Buyer
-**Scenario:** Customer just wants battery health dashboards, doesn't need full MDM.
-**Counter:** Show XSight analytics. "If you're going to buy analytics, get the platform that comes with MDM included."
+### Vulnerability #2: "We Don't Need Management, Just Visibility"
+**Scenario:** Customer has field techs managing devices manually, doesn't see MDM value.
+**Counter:** "That's exactly why you need SOTI. You're paying people to manually manage devices. We automate that AND give you the visibility B2M promises."
 
-### Vulnerability #3: "Good Enough" Monitoring
-**Scenario:** Customer already has an MDM (Intune, Jamf) and just wants device health.
-**Counter:** This is the dangerous one. Focus on remote control value. "Your MDM can't remote into a frozen device. We can."
-
----
-
-## 5. Sales Scripts by Scenario
-
-### Scenario A: Customer Considering OpIntel for Samsung Fleet
-```
-REP: "I see you're looking at OpIntel for your Samsung devices. 
-     Quick question — how are you planning to actually MANAGE those devices?"
-
-[Let them answer]
-
-REP: "Here's the thing — OpIntel is great at telling you what's happening.
-     But when a device freezes in the field, who fixes it?
-
-     SOTI doesn't just monitor. We remote in and solve the problem.
-     Same dashboard. One platform. Lower cost."
-
-CLOSE: "Let me show you a 2-minute demo of remote control on a Samsung device."
-```
-
-### Scenario B: Customer Has OpIntel, Shopping for MDM
-```
-REP: "Perfect — you already have visibility with OpIntel.
-     Now you need control. SOTI MobiControl is the engine that 
-     lets you ACT on everything OpIntel shows you.
-
-     The question is: do you want two vendors or one?
-     SOTI XSight gives you the same analytics PLUS the MDM."
-
-CLOSE: "Let's do a side-by-side of XSight vs OpIntel dashboards."
-```
-
-### Scenario C: Customer Comparing Total Cost
-```
-REP: "Let's talk TCO. OpIntel charges per device for analytics.
-     Then you need an MDM on top — that's two contracts, two vendors,
-     two support teams.
-
-     SOTI gives you MDM + analytics + remote support in one platform.
-     One contract. One throat to choke."
-
-MATH: "OpIntel: $X/device × 1000 devices = $X,000
-       MDM: $Y/device × 1000 devices = $Y,000
-       Total: $(X+Y),000
-
-       SOTI: $Z/device × 1000 devices = $Z,000 (everything included)
-       Savings: 20-30%"
-```
+### Vulnerability #3: Multi-Vendor Device Fleet (Zebra + Honeywell + Datalogic)
+**Scenario:** Customer has mixed fleet and B2M supports all of them with one analytics dashboard.
+**Counter:** "SOTI also supports all those manufacturers. One MDM, one analytics platform, no fragmentation."
 
 ---
 
-## 6. Quick Reference Card
+## 6. Sales Scripts by Scenario
+
+### Scenario A: Customer Considering B2M for Battery Analytics
+```
+REP: "I see you're looking at B2M for battery health monitoring.
+     Solid choice for visibility. Quick question though — when a battery
+     is about to fail, how do you actually replace it?"
+
+[Let them describe manual process]
+
+REP: "Here's what SOTI XSight does differently. We don't just tell you
+     a battery is failing. We can automatically:
+     - Notify the user
+     - Create a service ticket
+     - Direct them to the nearest swap station
+     - Track the swap completion
+
+     That's analytics with ACTION. B2M gives you half the picture."
+
+CLOSE: "Let me show you a 2-minute demo of XSight automated workflows."
+```
+
+### Scenario B: Customer Already Has MDM, Adding B2M
+```
+REP: "So you're adding B2M on top of [their MDM]. That makes sense for
+     better analytics. But here's the thing — you're paying two vendors
+     for what SOTI does in one platform.
+
+     Have you looked at what XSight provides compared to B2M?"
+
+[Compare feature-for-feature]
+
+REP: "Same analytics. PLUS remote control. PLUS the MDM you already have.
+     The question is: do you want to consolidate or add complexity?"
+
+CLOSE: "Let's do a TCO comparison: [their MDM] + B2M vs. SOTI alone."
+```
+
+### Scenario C: Customer Is Honeywell Shop
+```
+REP: "If you're running Honeywell devices, their Operational Intelligence
+     (which is B2M under the hood) is a natural fit for device health.
+
+     But you still need an MDM. And if that MDM isn't SOTI, you're missing
+     out on the industry's best remote control and Samsung/Honeywell integration.
+
+     Here's the play: Keep OpIntel if you want. But let SOTI be the
+     management layer that makes those insights actionable."
+
+CLOSE: "SOTI + Honeywell OpIntel is a valid stack. Let me show you why
+       SOTI should be the management layer."
+```
+
+---
+
+## 7. Quick Reference Card
 
 | Customer Says | You Say |
 |:--------------|:--------|
-| "OpIntel gives us device health" | "And we give you the power to fix it remotely" |
-| "We already have OpIntel" | "Great — now add the MDM that completes it" |
-| "OpIntel supports Samsung" | "SOTI INTEGRATES with Samsung. Day-zero KSP support" |
-| "OpIntel is cheaper" | "OpIntel is analytics-only. You still need an MDM. We're both." |
-| "We just need monitoring" | "Monitoring without control is a smoke alarm without a fire department" |
+| "B2M gives us device health" | "And we give you the power to act on it remotely" |
+| "We already have an MDM" | "Great — but does it give you battery analytics AND remote control?" |
+| "B2M supports all our device brands" | "So does SOTI — plus we can actually manage them" |
+| "B2M is cheaper" | "B2M is analytics-only. You still need an MDM. We're both." |
+| "We just need monitoring" | "Monitoring without action is just more reports your team ignores" |
+| "We're a Honeywell shop" | "Perfect — SOTI is the best MDM for Honeywell devices" |
 
 ---
 
-## 7. B2M Solutions Background (For Reference)
+## 8. B2M Solutions Background (For Reference)
 
-**Company:** B2M Solutions Ltd (UK)
+**Company:** B2M Solutions Ltd
 **Founded:** 2002
+**Headquarters:** Abingdon/Reading, UK
+**North America:** Atlanta, Georgia
+**CEO:** Gary Lee
+**Funding:** Series A ($16.2M raised)
 **Product:** Elemez (Mobile DEX platform)
-**Honeywell OEM Name:** Operational Intelligence
-**Model:** Cloud SaaS, agent-based
-**Limitation:** Analytics only — no MDM, no remote control, no security policies
+**Business Model:** SaaS subscription, per-device pricing
 
-**Key Insight:** B2M is a 20-year-old niche player. Honeywell is their biggest OEM. Without Honeywell, they have limited enterprise presence.
+**Key Insight:** B2M is a 20+ year old niche player. Their entire value prop is "MDMs leave gaps in analytics, we fill them." This admits they're a **complement to MDM, not a replacement**.
+
+**Honeywell Relationship:** OEM partner. Honeywell resells Elemez as "Operational Intelligence."
 
 ---
 
-## 8. Competitive Positioning Summary
+## 9. Competitive Positioning Summary
 
-**Honeywell OpIntel is:**
-- ✅ Good at: Battery health, app performance monitoring, crash analytics
+**B2M Elemez is:**
+- ✅ Good at: Battery analytics, device health monitoring, multi-vendor support
 - ❌ Bad at: Everything that requires ACTION (remote control, deployment, security)
-- ⚠️ Risk: Creates "visibility without control" trap for customers
+- ⚠️ Positioning: "Complements your MDM" = admission they can't replace it
 
 **SOTI Position:**
 - "We see what they see AND we can fix it remotely"
 - "One platform, not two"
-- "Samsung Premier Partner — deeper integration than OpIntel can ever have"
+- "Analytics + management + remote control in one solution"
 
 ---
 
 **Bottom Line for Sales:**
-> Honeywell OpIntel is a point solution. Don't fight it — position SOTI as the platform that *completes* it. If they're buying analytics, they need management. We're both.
+> B2M is a point solution that fills gaps in weak MDMs. SOTI XSight has no gaps. If the customer already has an MDM, position XSight as the upgrade that makes B2M unnecessary. If they're starting fresh, lead with "one platform does it all."
 
 ---
 
-*Sources: B2M Solutions website, Honeywell product documentation, Samsung partnership announcement (2026)*
+*Sources: B2M Solutions website, Honeywell press release (Feb 2026), Honeywell Marketplace*

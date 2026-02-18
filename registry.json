@@ -1,19 +1,23 @@
 {
   "id": "honeywell-b2m",
-  "name": "Honeywell B2M / Operational Intelligence",
-  "type": "analytics_dex",
+  "name": "B2M Solutions Elemez",
+  "honeywell_oem_name": "Operational Intelligence",
+  "type": "mobile_dex_analytics",
   "threat_level": "medium",
   "last_updated": "2026-02-18",
-  "version": "3.1",
-  "quality_score": 85,
+  "version": "3.2",
+  "quality_score": 90,
   "files": ["BATTLECARD.md"],
   "sources": [
-    "B2M Solutions website",
-    "Honeywell product documentation", 
-    "Samsung partnership announcement (2026)"
+    "B2M Solutions website (b2msolutions.com)",
+    "Honeywell Marketplace",
+    "Honeywell press release (Feb 2026)"
   ],
+  "supported_manufacturers": ["Zebra", "Honeywell", "Datalogic", "GETAC", "Panasonic"],
+  "supported_platforms": ["Android 8.1-15", "Windows 10/11"],
   "kill_shots": 4,
   "vulnerabilities": 3,
   "sales_scripts": 3,
+  "key_fact": "Analytics/monitoring only - NOT an MDM. Complements MDM, cannot replace it.",
   "verification_status": "webconsole_verified"
 }
