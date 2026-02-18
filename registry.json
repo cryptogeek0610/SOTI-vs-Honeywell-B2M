@@ -1,0 +1,19 @@
+{
+  "id": "honeywell-b2m",
+  "name": "Honeywell B2M / Operational Intelligence",
+  "type": "analytics_dex",
+  "threat_level": "medium",
+  "last_updated": "2026-02-18",
+  "version": "3.1",
+  "quality_score": 85,
+  "files": ["BATTLECARD.md"],
+  "sources": [
+    "B2M Solutions website",
+    "Honeywell product documentation", 
+    "Samsung partnership announcement (2026)"
+  ],
+  "kill_shots": 4,
+  "vulnerabilities": 3,
+  "sales_scripts": 3,
+  "verification_status": "webconsole_verified"
+}
