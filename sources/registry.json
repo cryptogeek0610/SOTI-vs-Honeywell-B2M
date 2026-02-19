@@ -1,0 +1,50 @@
+{
+  "slug": "honeywell-b2m",
+  "version": 1,
+  "created_at": "2026-02-19T02:01:08.648014+00:00",
+  "updated_at": "2026-02-19T17:15:31.440202+00:00",
+  "sources": [
+    {
+      "id": "src_c8108a6a",
+      "url": "https://www.honeywell-b2m.com",
+      "type": "docs",
+      "title": "honeywell-b2m Official Site",
+      "extraction_method": "firecrawl",
+      "check_frequency": "weekly",
+      "created_at": "2026-02-19T02:01:09.386859+00:00",
+      "last_checked": null,
+      "last_changed": null,
+      "content_hash": null,
+      "notes": "",
+      "status": "unreachable"
+    },
+    {
+      "id": "src_0fbe5940",
+      "url": "https://www.g2.com/products/honeywell-b2m/reviews",
+      "type": "reviews",
+      "title": "honeywell-b2m G2 Reviews",
+      "extraction_method": "jina",
+      "check_frequency": "monthly",
+      "created_at": "2026-02-19T02:01:12.904271+00:00",
+      "last_checked": "2026-02-19T17:15:26.442637+00:00",
+      "last_changed": "2026-02-19T17:15:26.442656+00:00",
+      "content_hash": "sha256:551d118932d5bbe5",
+      "notes": "",
+      "status": "active"
+    },
+    {
+      "id": "src_00286dc9",
+      "url": "https://www.honeywell-b2m.com/pricing",
+      "type": "pricing",
+      "title": "honeywell-b2m Pricing",
+      "extraction_method": "firecrawl",
+      "check_frequency": "monthly",
+      "created_at": "2026-02-19T02:01:13.611274+00:00",
+      "last_checked": null,
+      "last_changed": null,
+      "content_hash": null,
+      "notes": "",
+      "status": "unreachable"
+    }
+  ]
+}
