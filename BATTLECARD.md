@@ -1,166 +1,209 @@
-# Honeywell-Samsung B2M Partnership Overview
+# Battlecard: B2M Solutions Elemez vs SOTI XSight
 
-**Partnership Announced:** February 2026
-**Partnership Type:** Business-to-Mobile (B2M) Integration
-**Partners:** Honeywell + Samsung
-**Strategic Focus:** Enterprise Rugged Market + Field Service Automation
-
----
-
-## Partnership Structure
-
-### Joint Value Proposition
-
-**1. Seamless Field-to-Shipment Workflow**
-- **Samsung Galaxy Devices (Enterprise/Field Workers):** Capture orders, track shipments, sign for delivery
-- **Honeywell B2M Printers (Warehouse/Logistics):** Print shipping labels, packing lists, delivery confirmations
-- **Unified Platform:** Samsung Knox Platform manages both device fleets and print networks
-- **Key Benefit:** Eliminates manual reconciliation between device orders and printed documentation
-
-**2. Complete Enterprise Mobility Ecosystem**
-- **Samsung Mobility:** Android Enterprise with Knox Workspace containerization
-- **Honeywell Printing:** B2M printing protocols integrated into Knox Workspace
-- **App Isolation:** Honeywell B2M apps can run in Samsung Knox Workspace with full device management
-- **Security Synergy:** Samsung Knox Verify and Knox Guard protect both Samsung and Honeywell devices
-
-**3. Enhanced Security Architecture**
-- **Samsung Knox Platform (Defense-grade):**
-  - **TrustZone:** Hardware-backed secure world for Android kernel
-  - **Secure Boot:** Verified boot chain ensures OS integrity
-  - **Knox Guard:** Sandboxed app isolation prevents data leakage
-  - **Knox Attestation:** Continuous device integrity verification
-  - **Knox VPN:** Military-grade encrypted tunnels for enterprise data transmission
-
-- **Integration with SOTI:**
-  - Samsung Knox can be registered as a SOTI-recognized vendor
-  - SOTI policies can be enforced via Knox Configure APIs
-  - SOTI's MobileIron device management can leverage Samsung's hardware trust anchors
-
-**4. Strategic Market Positioning**
-
-**Target Markets:**
-- Industrial Manufacturing & Logistics
-- Field Service & Maintenance
-- Healthcare (medical device printing)
-- Retail (inventory management & labeling)
-- Transportation & Distribution
-
-**Competitive Advantages vs. Zebra/MobileIron-only:**
-1. **Broader Device Portfolio:** Samsung rugged devices (Enterprise series) + Honeywell printers vs. Zebra's printer-only focus
-2. **Integrated Hardware-Software Stack:** Samsung's Exynos processors + Knox Platform + Honeywell B2M drivers vs. Zebra's fragmented approach
-3. **Unified Security Model:** Single security architecture (Samsung Knox) vs. Multiple vendors (Zebra's separate implementations)
-4. **Enterprise-Ready Branding:** "Samsung Enterprise" vs. "SOTI MobileIron" generic enterprise MDM vs. specialized rugged devices
+**Last Updated:** 2026-02-18
+**Competitor:** B2M Solutions (Elemez Mobile DEX platform)
+**Honeywell OEM Name:** Operational Intelligence
+**Type:** Mobile Analytics / DEX Platform (NOT an MDM)
+**Threat Level:** Medium (Analytics competitor, complementary to MDM)
 
 ---
 
-## Competitive Analysis: SOTI vs. Samsung Enterprise
+## 1. What is B2M Solutions?
 
-### Samsung Enterprise Rugged Device Strategy
+**B2M Solutions** (UK-based, founded 2002) provides **Elemez** — a Mobile Digital Employee Experience (Mobile DEX) platform for monitoring mobile device health.
 
-**Product Lineup:**
-- **Samsung Galaxy XCover Pro 3** (Enterprise Rugged Tablet)
-- **Samsung Galaxy Tab Active 3 Pro** (Enterprise Rugged Tablet)
-- **Samsung Galaxy S24 Ultra** (Enterprise Rugged Smartphone)
-- **Samsung Galaxy Xcover 5 Pro** (Enterprise Rugged Laptop)
+**Honeywell Partnership:** Honeywell OEMs Elemez as **"Operational Intelligence"** for their devices. In Feb 2026, Honeywell announced B2M support for **non-Honeywell devices** (Zebra, Datalogic, GETAC, Panasonic).
 
-**Key Specifications:**
-| Feature | Samsung Enterprise | SOTI MobileIron | SOTI BlackBerry UEM |
-|---------|----------------|----------------|----------|----------|
-| **Display** | 6.7" rugged AMOLED | 3.5" - 5" | N/A | 4" AMOLED |
-| **Processor** | Exynos 1480 / Snapdragon 8 Gen 3 | N/A | Snapdragon 8 Gen 3 | N/A |
-| **Security** | Samsung Knox Platform (TrustZone + Secure Boot + Knox Guard + Knox Attestation + Knox VPN) | MobileIron Security | BlackBerry UEM hardware trust |
-| **Management** | Samsung Knox Workspace (unified MDM) | SOTI MDM (software-only) | SOTI MDM (software-only) |
-| **Ruggedization** | MIL-STD-810H certified | IP68 rating | MIL-STD-810H certified | MIL-STD-810H certified |
-| **Enterprise Features** | Native Knox apps, Zero Trust support, Enterprise APIs | Standard Android | Limited enterprise features |
-| **Ecosystem** | Samsung Device Care, Knox Marketplace, Partner solutions | SOTI partner ecosystem | Hardware-only |
-
-**Samsung Competitive Advantages:**
-1. **Hardware-Integrated Security:** TrustZone + Secure Boot provides defense-grade security that software-only solutions struggle to match in highly regulated sectors
-2. **Unified Management:** Single vendor (Samsung) for both devices and management reduces TCO and integration complexity
-3. **Specialized Enterprise Features:** Native Android Enterprise APIs, Zero Trust enrollment, advanced app isolation for regulated industries
-4. **Brand Recognition:** "Samsung Enterprise" branding signals enterprise-grade specialization vs. generic MDM vendors
-5. **Battery Life:** User-replaceable, extended life (72+ hours) vs. non-replaceable mobile batteries
-
-**SOTI Competitive Advantages:**
-1. **Multi-Vendor Support:** Broader device ecosystem (iOS, Windows, rugged vendors) vs. Samsung-only approach
-2. **Flexibility:** Platform-agnostic policies, support for diverse hardware needs
-3. **Maturity:** Established enterprise MDM with proven large-scale deployments
-4. **Established Partner Network:** Long-term vendor relationships and integration experience
+**Critical Point:** This is an **analytics/monitoring tool only**. It tells you *what's wrong* but cannot *fix it*.
 
 ---
 
-## Strategic Implications for SOTI
+## 2. B2M Elemez Products
 
-### Threat Assessment
+| Product | What It Does |
+|:--------|:-------------|
+| **Battery Essentials** | Predict battery failure, monitor health, reduce unnecessary swaps |
+| **Core** | Real-time holistic analytics for devices, apps, networks |
+| **API/Integrations** | Export data to Power BI, Tableau, custom dashboards |
 
-**1. **Market Threat - Enterprise Mobility:**
-- Samsung's specialized "Samsung Enterprise" devices targeting industrial/military sectors directly challenge SOTI's "generic enterprise" positioning
-- Honeywell partnership provides Samsung access to print-heavy industrial markets (healthcare, logistics)
-- **Severity:** HIGH - Samsung can bundle devices + services and undercut standalone MDM pricing
-
-**2. **Sales Message Conflict:**
-- Current SOTI messaging: "Flexible, multi-vendor MDM"
-- Samsung messaging: "Samsung Enterprise - Unified hardware + software security platform"
-- **Buyer Perception:** Samsung appears more "complete" and "enterprise-ready" for critical deployments
-
-**3. **Competitive Pressure Points:**
-- **Feature Parity:** SOTI lacks Samsung-grade hardware security and specialized rugged device certifications
-- **Pricing Pressure:** Samsung's hardware-software bundles could offer better TCO than SOTI's separate MDM licensing
-- **Integration Complexity:** Samsung-Knox integration is more attractive to IT departments than adding Honeywell support to existing SOTI stack
+**Supported Platforms:** Android 8.1-15, Windows 10/11
+**Supported Manufacturers:** Zebra, Honeywell, Datalogic, GETAC, Panasonic
 
 ---
 
-## Recommended SOTI Response Strategy
+## 3. SOTI vs B2M: Quick Comparison
 
-### 1. **Reposition as "Enterprise-Ready" Partner**
-- Develop "Samsung-Knox Integration" capability for SOTI MDM
-- Market SOTI as "Samsung-Ready" for rugged deployments requiring highest security standards
-- Create co-branded solution sheets: "SOTI + Samsung Enterprise"
-- Develop sales enablement: "How SOTI and Samsung protect your critical operations"
+| Capability | SOTI (MobiControl + XSight) | B2M Elemez |
+|:-----------|:----------------------------|:-----------|
+| **MDM/Management** | ✅ Full MDM | ❌ Analytics only |
+| **Remote Control** | ✅ Industry-leading | ❌ None |
+| **App Deployment** | ✅ Full lifecycle | ❌ None |
+| **Device Analytics** | ✅ XSight | ✅ Elemez |
+| **Battery Analytics** | ✅ Predictive | ✅ Predictive |
+| **OS Updates** | ✅ E-FOTA control | ❌ Monitoring only |
+| **Security Policies** | ✅ Kernel-level | ❌ None |
+| **Works Without MDM** | ❌ (is the MDM) | ✅ Standalone |
+| **API Access** | ✅ SOTI ONE API | ✅ Elemez API |
 
-### 2. **Create Samsung-Specific Sales Playbooks**
-- **Scenario:** Competitor pitches where customer has Samsung or asks about Samsung
-- **Talking Points:**
-  1. "Samsung Enterprise devices have defense-grade security (TrustZone, Secure Boot) that generic MDM software can't match"
-  2. "Samsung Knox Platform provides unified management - one console for phones, tablets, and rugged laptops - reduces your TCO"
-  3. "Samsung offers user-replaceable batteries and 72+ hour operation life - critical for field service"
-  4. "Samsung's MIL-STD-810H certification meets military/government requirements - SOTI lacks this"
-  5. "Samsung's IP68 rating (Ingress Protection 67) is higher than standard mobile devices - better for sensitive operations"
-  6. "Samsung's Enterprise APIs provide native integration without custom development"
-- **Differentiator:** "SOTI + Samsung" ecosystem vs. "SOTI-only" or "SOTI + generic MDM"
-
-### 3. **Develop Honeywell Integration Guides**
-- **Objective:** Enable SOTI MDM to manage Honeywell B2M printers alongside Samsung devices
-- **Use Cases:**
-  1. Healthcare: Label printing for patient records
-  2. Retail: Shipping labels for logistics
-  3. Manufacturing: Work instructions and safety warnings
-- **Technical Approach:** Honeywell B2M protocol → SOTI policy enforcement
-- **Security:** Treat B2M printers as "secure peripherals" in SOTI security architecture
-
-### 4. **Accelerate Feature Development**
-- **Priority Areas:**
-  1. Hardware trust anchors (TrustZone/Secure Boot)
-  2. MIL-STD-810H certification pursuit
-  3. Enhanced app isolation (Knox Guard)
-  4. Battery life optimization
-- **Timeline:** 3-6 months for high-priority features
+**Bottom Line:** B2M is a **point solution** for analytics. SOTI is a **complete platform** for management + analytics + support.
 
 ---
 
-## Conclusion
+## 4. Kill Shots (Where SOTI Wins)
 
-The Honeywell-Samsung partnership represents a **strategic threat** to SOTI's market position, but also creates an **opportunity** for SOTI to elevate its enterprise security and device management capabilities.
+### Kill Shot #1: "They See Problems, We Fix Problems"
+```
+"Elemez is like a smoke detector — it tells you there's a fire.
+SOTI XSight is the fire department — we come in and put it out."
+```
+**Use When:** Customer asks about B2M's device health dashboards.
+**Counter:** B2M can tell you a device has a failing battery. SOTI can push a profile to disable that device, notify the swap station, and reroute the worker — all automatically.
 
-**Immediate Action Required:**
-1. **Acknowledge Partnership:** Update SOTI sales materials to reference Samsung Enterprise integration
-2. **Develop Integration Capability:** Create technical guides for Samsung-Knox-Honeywell environments
-3. **Rebrand "Enterprise-Ready": Position SOTI as Samsung-capable for high-security, rugged deployments
-4. **Sales Enablement:** Train sales team on Samsung competitive advantages and Samsung-Honeywell synergy opportunities
+### Kill Shot #2: "Analytics Without Action is Just Reports"
+```
+"B2M gives you beautiful dashboards. Then what?
+You still need an MDM to actually DO something about it.
+SOTI gives you both — the visibility AND the control."
+```
+**Use When:** Customer is considering B2M as a standalone purchase.
+**Counter:** Every B2M deployment still requires an MDM. Why pay for two platforms when SOTI does both?
 
-**Strategic Recommendation:**
-SOTI should pursue a **"SOTI + Samsung Enterprise"** co-branding partnership rather than trying to compete directly with Samsung's specialized ecosystem. This leverages Samsung's strengths while maintaining SOTI's multi-vendor flexibility.
+### Kill Shot #3: "Remote Control is Non-Negotiable"
+```
+"B2M can report that a frontline worker's device is frozen.
+SOTI can remote in and fix it in 30 seconds without a truck roll."
+```
+**Use When:** Customer has distributed workforce / field service.
+**Counter:** Calculate the cost of one truck roll ($150-300). SOTI pays for itself on the first remote fix. B2M can't do this.
+
+### Kill Shot #4: "One Platform, One Vendor"
+```
+"B2M + MDM = two vendors, two contracts, two support teams, two dashboards.
+SOTI = one platform, one throat to choke, one bill."
+```
+**Use When:** Customer is price-sensitive or worried about vendor sprawl.
+**Counter:** Consolidation reduces complexity. SOTI XSight does what B2M does + the MDM on top.
 
 ---
-**Intelligence Level:** PRELIMINARY - Research in progress
-**Date Generated:** 2026-02-18 09:20 UTC
+
+## 5. Vulnerabilities (Where We Lose)
+
+### Vulnerability #1: Customer Already Has MDM, Just Wants Analytics
+**Scenario:** Customer has Intune/Jamf/Workspace ONE and just wants better battery analytics.
+**Counter:** "If you're buying analytics anyway, why not get the platform that comes with remote control built in? XSight gives you B2M's features PLUS the ability to fix problems remotely."
+
+### Vulnerability #2: "We Don't Need Management, Just Visibility"
+**Scenario:** Customer has field techs managing devices manually, doesn't see MDM value.
+**Counter:** "That's exactly why you need SOTI. You're paying people to manually manage devices. We automate that AND give you the visibility B2M promises."
+
+### Vulnerability #3: Multi-Vendor Device Fleet (Zebra + Honeywell + Datalogic)
+**Scenario:** Customer has mixed fleet and B2M supports all of them with one analytics dashboard.
+**Counter:** "SOTI also supports all those manufacturers. One MDM, one analytics platform, no fragmentation."
+
+---
+
+## 6. Sales Scripts by Scenario
+
+### Scenario A: Customer Considering B2M for Battery Analytics
+```
+REP: "I see you're looking at B2M for battery health monitoring.
+     Solid choice for visibility. Quick question though — when a battery
+     is about to fail, how do you actually replace it?"
+
+[Let them describe manual process]
+
+REP: "Here's what SOTI XSight does differently. We don't just tell you
+     a battery is failing. We can automatically:
+     - Notify the user
+     - Create a service ticket
+     - Direct them to the nearest swap station
+     - Track the swap completion
+
+     That's analytics with ACTION. B2M gives you half the picture."
+
+CLOSE: "Let me show you a 2-minute demo of XSight automated workflows."
+```
+
+### Scenario B: Customer Already Has MDM, Adding B2M
+```
+REP: "So you're adding B2M on top of [their MDM]. That makes sense for
+     better analytics. But here's the thing — you're paying two vendors
+     for what SOTI does in one platform.
+
+     Have you looked at what XSight provides compared to B2M?"
+
+[Compare feature-for-feature]
+
+REP: "Same analytics. PLUS remote control. PLUS the MDM you already have.
+     The question is: do you want to consolidate or add complexity?"
+
+CLOSE: "Let's do a TCO comparison: [their MDM] + B2M vs. SOTI alone."
+```
+
+### Scenario C: Customer Is Honeywell Shop
+```
+REP: "If you're running Honeywell devices, their Operational Intelligence
+     (which is B2M under the hood) is a natural fit for device health.
+
+     But you still need an MDM. And if that MDM isn't SOTI, you're missing
+     out on the industry's best remote control and Samsung/Honeywell integration.
+
+     Here's the play: Keep OpIntel if you want. But let SOTI be the
+     management layer that makes those insights actionable."
+
+CLOSE: "SOTI + Honeywell OpIntel is a valid stack. Let me show you why
+       SOTI should be the management layer."
+```
+
+---
+
+## 7. Quick Reference Card
+
+| Customer Says | You Say |
+|:--------------|:--------|
+| "B2M gives us device health" | "And we give you the power to act on it remotely" |
+| "We already have an MDM" | "Great — but does it give you battery analytics AND remote control?" |
+| "B2M supports all our device brands" | "So does SOTI — plus we can actually manage them" |
+| "B2M is cheaper" | "B2M is analytics-only. You still need an MDM. We're both." |
+| "We just need monitoring" | "Monitoring without action is just more reports your team ignores" |
+| "We're a Honeywell shop" | "Perfect — SOTI is the best MDM for Honeywell devices" |
+
+---
+
+## 8. B2M Solutions Background (For Reference)
+
+**Company:** B2M Solutions Ltd
+**Founded:** 2002
+**Headquarters:** Abingdon/Reading, UK
+**North America:** Atlanta, Georgia
+**CEO:** Gary Lee
+**Funding:** Series A ($16.2M raised)
+**Product:** Elemez (Mobile DEX platform)
+**Business Model:** SaaS subscription, per-device pricing
+
+**Key Insight:** B2M is a 20+ year old niche player. Their entire value prop is "MDMs leave gaps in analytics, we fill them." This admits they're a **complement to MDM, not a replacement**.
+
+**Honeywell Relationship:** OEM partner. Honeywell resells Elemez as "Operational Intelligence."
+
+---
+
+## 9. Competitive Positioning Summary
+
+**B2M Elemez is:**
+- ✅ Good at: Battery analytics, device health monitoring, multi-vendor support
+- ❌ Bad at: Everything that requires ACTION (remote control, deployment, security)
+- ⚠️ Positioning: "Complements your MDM" = admission they can't replace it
+
+**SOTI Position:**
+- "We see what they see AND we can fix it remotely"
+- "One platform, not two"
+- "Analytics + management + remote control in one solution"
+
+---
+
+**Bottom Line for Sales:**
+> B2M is a point solution that fills gaps in weak MDMs. SOTI XSight has no gaps. If the customer already has an MDM, position XSight as the upgrade that makes B2M unnecessary. If they're starting fresh, lead with "one platform does it all."
+
+---
+
+*Sources: B2M Solutions website, Honeywell press release (Feb 2026), Honeywell Marketplace*
